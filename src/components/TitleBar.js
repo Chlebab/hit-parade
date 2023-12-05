@@ -3,7 +3,7 @@ import React from 'react';
 const TitleBar = ({handleSelectChange, genres}) =>{
   return (
     <div>
-      <h1>Chlebab's Hit Parade V2</h1>
+      <h1>Hit Parade V3</h1>
       <select onChange={handleSelectChange}>
         {genres.map(genre => {
           return <option key={genre.name} value={genre.url}>{genre.name}</option>
